@@ -1,7 +1,8 @@
 
 import { Provider } from 'react-redux'
 import './App.css'
-import CounterApp from './components/CounterApp'
+// import CounterApp from './components/CounterApp'
+import DataList from './components/DataList'
 import store from './store'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       <Provider store={store}>
 
-        <CounterApp />
+        {/* <CounterApp /> */}
+        <DataList/>
       </Provider>
     </>
   )
